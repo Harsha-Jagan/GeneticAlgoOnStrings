@@ -12,7 +12,7 @@ class DNA {
   }
 
   getRandomGene() {
-    let letters = ", abcdefghijklmnopqrstuvwxyz";
+    let letters = ".;, abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     return letters.charAt(Math.floor(Math.random() * letters.length));
   }
 

@@ -6,7 +6,7 @@ function setup() {
   createCanvas(600, 400);
   background(150);
   //initialize population w random genes
-  target = "to be, or not to be, that is the question";
+  target = "To be, or not to be, that is the question.";
   p = new Population(1000, target.length, target);
   // frameRate(10);
 }
