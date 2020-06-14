@@ -63,6 +63,7 @@ class Population {
       }
     }
     document.getElementById("demo").innerHTML = bestGenes;
+    document.getElementById("demo").style.textAlign = "center";
     return bestGenes;
   }
 }
